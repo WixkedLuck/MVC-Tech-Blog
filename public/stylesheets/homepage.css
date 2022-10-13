@@ -1,0 +1,30 @@
+body{
+    background-color:#BFAC9B ;
+}
+.bg{
+    background-color: #D97652;
+    border-bottom: #402D22 solid 3px;
+  
+}
+.colors{
+    color: #402D22 !important;
+    font-size: x-large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+.title{
+   
+    font-family: 'Cinzel', serif;
+    border-bottom: #402D22  solid 3px ;
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+ background-color: #A69281;
+ border-radius: 30px;
+}

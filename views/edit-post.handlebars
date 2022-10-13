@@ -1,0 +1,26 @@
+<article>
+  <a href="/dashboard" class=""> &larr; Back to Dashboard</a>
+  <h2 class="edit">
+    Edit Post
+  </h2>
+  <form class="edit-post-form">
+    <div class="space">
+      <label for="post-title" class="title">Title</label>
+      <input name="post-title" type="text" value="{{post.title}}" />
+    </div>
+    <div class="space">
+      <label for="post-blog_body">Content</label>
+      <input id="post-blog_body" name="post-blog_body" />
+    </div>
+    <div class="edit-btns">
+      <button type="submit" class="update-post-btn">Update</button>
+      <button type="button" class="delete-post-btn">Delete</button>
+    </div>
+  </form>
+</article>
+
+{{#if loggedIn}}
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
+<script src="/javascript/comment.js"></script>
+{{/if}}
