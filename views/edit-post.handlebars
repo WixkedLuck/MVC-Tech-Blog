@@ -1,11 +1,11 @@
 <article>
-  <a href="/dashboard" class=""> &larr; Back to Dashboard</a>
+  
   <h2 class="edit">
     Edit Post
   </h2>
   <form class="edit-post-form">
     <div class="space">
-      <label for="post-title" class="title">Title</label>
+      <label for="post-title" class="title2">Title</label>
       <input name="post-title" type="text" value="{{post.title}}" />
     </div>
     <div class="space">
@@ -17,6 +17,7 @@
       <button type="button" class="delete-post-btn">Delete</button>
     </div>
   </form>
+  <a href="/dashboard" class="links"> &larr; Back to Dashboard</a>
 </article>
 
 {{#if loggedIn}}

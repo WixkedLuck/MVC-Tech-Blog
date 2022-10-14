@@ -27,4 +27,63 @@ body{
     padding-right: 40px;
  background-color: #A69281;
  border-radius: 30px;
+margin-bottom: 50px;
+}
+.space {
+  
+  
+  width: fit-content;
+  margin: auto;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: x-large;
+}
+.btn{
+    background-color: #D97652;
+}
+.btn:hover{
+    background-color: #F27A5E;
+}
+form{
+    background-color: #A69281;
+}
+.links {
+    font-size: x-large;
+color: #D97652;
+}
+.links:hover{
+    color: #402D22;
+}
+.edit-link{
+    font-size: larger;
+   
+}
+.new-post{
+    border-radius: 30px;
+    font-size: larger;
+    background-color: #A69281;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: #402D22;
+}
+ol {
+    text-decoration: none;
+}
+.comments { 
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: x-large;
+    background-color: #A69281;
+    border-radius: 10px;
+}
+.comment-title{
+    border-bottom: #402D22 solid 3px;
+}
+.backspace{
+    margin-top: 10px;
+    color: #D97652;
+    font-size: larger;
 }

@@ -1,4 +1,4 @@
-<a href="/dashboard"> &larr; Back to Dashboard</a>
+
 {{> post-info post}}
 
 {{#if loggedIn}}
@@ -8,9 +8,10 @@
   </div>
 
   <div>
-    <button type="submit">Add Comment</button>
+    <button type="submit" class="btn">Add Comment</button>
   </div>
 </form>
+<a href="/dashboard" class="backspace"> &larr; Back to Dashboard</a>
 {{/if}}
 
 {{> comments post.comments}}
