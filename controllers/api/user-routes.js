@@ -104,7 +104,7 @@ router.post('/logout', (req, res) => {
     res.status(404).end();
   }
 });
-
+// hi
 router.put('/:id', (req, res) => {
   User.update(req.body, {
     individualHooks: true,
