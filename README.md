@@ -7,6 +7,7 @@
 * [Usage](#usage)
 * [License](#license)
  * [Contributors](#contributors)
+ * [Live Site](#live-site)
 
 
     ![Blog-Post](./public/Screenshot.PNG)
@@ -29,3 +30,5 @@ In order to install this project, you will need the following <br/>
 ## Contributors
 * WixkedLuck 
   <br/>
+## Live site 
+https://mvc-tech-blog2.herokuapp.com/
