@@ -9,7 +9,7 @@
  * [Contributors](#contributors)
 
 
-    
+    ![Blog-Post](./public/Screenshot.PNG)
             
 ## Description:
 * This site is a CMS-style blog site similar to a Wordpress site. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies  <br/>
